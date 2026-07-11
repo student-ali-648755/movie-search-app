@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.dark {
+    background-color: #222;
+    color: white;
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 2px solid aqua;
+    font-size: large;
+}
+button:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+#movies{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.movie-card{
+    width: 350px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: 0.3s;
+}
+.movie-card img{
+    width: 200px;
+}
+.movie-card:hover{
+    transform: translateY(-10px);
+}
+.dark .movie-card{
+    background-color: #333;
+    color: white;
+}
