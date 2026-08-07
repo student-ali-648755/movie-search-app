@@ -45,3 +45,31 @@ button:hover{
     background-color: #333;
     color: white;
 }
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    input {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    #movies {
+        width: 100%;
+    }
+
+    .movie-card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .movie-card img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
