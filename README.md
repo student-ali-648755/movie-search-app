@@ -29,7 +29,7 @@ A simple Movie Search App built with **HTML, CSS, and JavaScript** using the **O
 
 ## 📷 Screenshot
 
-![Movie Search App Screenshot](screenshot.png)
+![Movie Search App Screenshot](Screenshot.png)
 
 ## 🌐 Live Demo
 
